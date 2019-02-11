@@ -14,7 +14,7 @@ Given a list of integers, this program will provide a sorted list. You are requi
 
 ## GETTING STARTED
 1. open a terminal/console window
-2. `cd path/to/SelectionSort/src/com/utd/sort`
-3. `javac Main.java` to build the service
-4. `java Main` to run the service
+2. `cd path/to/SelectionSort`
+3. Open `Config.properties` and enter the list you want to sort
+4. Run `Main.class` and you will get the required sorted list as the output.
 
