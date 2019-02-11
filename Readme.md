@@ -2,7 +2,7 @@
 
 `SelectionSort` is responsible for performing selection sort algorithm on a given list of integers.
 
-##SUMMARY
+## SUMMARY
 Given a list of integers, this program will provide a sorted list. You are required to provide the integers in the config file which the program reads and performs its sorting algorithm on.
 
 ## PREREQUISITES
