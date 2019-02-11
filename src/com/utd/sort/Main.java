@@ -14,10 +14,11 @@ public class Main {
 
 		Properties prop = ReadPropertyFile.readProperties("config.properties");
 		ListUtil.buildList(prop.getProperty("List"));
+		System.out.println("Initial List :");
 		ListUtil.traverse();
 		SelectionSortImpl sort = new SelectionSortImpl();
 		sort.selectionSort();
-		System.out.println("Nodes after sorting");
+		System.out.println("Nodes after sorting :");
 		ListUtil.traverse();
 	}
 

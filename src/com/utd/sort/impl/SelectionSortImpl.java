@@ -15,7 +15,6 @@ public class SelectionSortImpl {
 		Node curPrev = null;
 		Node minPrev = null;
 		Node ptrPrev = null;
-		System.out.println("Head : "+head.val);
 		while(cur.next != null) {
 			minPrev = curPrev;
 			min = cur;
@@ -29,8 +28,6 @@ public class SelectionSortImpl {
 				ptrPrev = ptr;
 				ptr = ptr.next;
 			}
-			System.out.println("cur:"+cur.val+"-min:"+min.val);
-			
 			if(cur != min) {
 				nodeSwap(minPrev,curPrev);
 				curPrev = min;
@@ -39,7 +36,6 @@ public class SelectionSortImpl {
 				curPrev = cur;
 				cur = cur.next;
 			}
-			ListUtil.traverse();
 		}
 		
 	}

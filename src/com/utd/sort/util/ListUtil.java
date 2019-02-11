@@ -8,7 +8,6 @@ public class ListUtil {
 
 	public static void buildList(String list) {
 		
-		System.out.println("List"+list);
 		String[] strList = list.split(",");
 		
 		int val = Integer.parseInt(strList[0]);
@@ -44,11 +43,10 @@ public class ListUtil {
 	public static void traverse () {
 		
 		Node tmp = head;
-		System.out.println("Nodes : ");
 		while(tmp.next!=null) {
 			System.out.print(tmp.val+"->");
 			tmp = tmp.next;
 		}
-		System.out.print(tmp.val);
+		System.out.println(tmp.val);
 	}
 }
